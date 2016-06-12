@@ -57,7 +57,10 @@ autocmd BufRead *.markdown  set ai formatoptions=tcroqn2 comments=n:&gt;
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " COLOR
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-:set t_Co=256 " 256 colors
-:set background=dark
-:color rpa256
+colorscheme darkblue
 
+"This section does not play well with macvim
+
+"set background=dark
+":set t_Co=256 " 256 colors
+":color rpa256
