@@ -10,6 +10,7 @@ set number
 set hidden
 set clipboard=unnamed
 set backspace=indent,eol,start " backspace over everything in insert mode
+set guifont=Inconsolata-g:h16
 syntax on
 
 " highlight current line
