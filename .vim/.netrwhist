@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/ricardoparro/code/sandbox'
+let g:netrw_dirhist_2='/Users/ricardoparro/code/RedditHacker/reddit'
+let g:netrw_dirhist_3='/Users/ricardoparro/code/app-test'
+let g:netrw_dirhist_4='/Users/ricardoparro/code/jersey-rest-server'
+let g:netrw_dirhist_5='/Users/ricardoparro/code/tradeshift'
