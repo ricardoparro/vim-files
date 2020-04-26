@@ -57,14 +57,3 @@ autocmd FileType python set sw=4 sts=4 et
 autocmd! BufRead,BufNewFile *.sass setfiletype sass 
 autocmd BufRead *.mkd  set ai formatoptions=tcroqn2 comments=n:&gt;
 autocmd BufRead *.markdown  set ai formatoptions=tcroqn2 comments=n:&gt;
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" COLOR
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-colorscheme darkblue
-
-"This section does not play well with macvim
-
-"set background=dark
-":set t_Co=256 " 256 colors
-":color rpa256
