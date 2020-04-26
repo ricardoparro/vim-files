@@ -42,6 +42,10 @@ map <Leader>lr :LustyFilesystemExplorerFromHere
 map <Leader>lb :LustyBufferExplorer
 "Opens buffer grep.
 map <Leader>lg :LustyBufferGrep
+" grep recursively for word under cursor
+map <Leader>g :tabnew\|read !grep -Hnr '<C-R><C-W>'<CR>
+" sort the buffer removing duplicates
+map <Leader>s :%!sort -u --version-sort<CR>
 
 autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1 
 autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
